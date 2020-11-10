@@ -11,48 +11,18 @@
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <dependencies>
         <dependency>
-
-            <!-- координаты необходимой библиотеки -->
-
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-
-            <!-- эта библиотека используется только для запуска и
-           компилирования тестов -->
-
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
             <scope>test</scope>
-
         </dependency>
     </dependencies>
 
-    <!-- <build>
-         <plugins>
-             <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                 <artifactId>exec-maven-plugin</artifactId>
-                 <version>1.1.1</version>
-                <executions>
-                    <execution>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>java</goal>
-                        </goals>
-                        <configuration>
-                            <mainClass>ru.sbrf.reboot.java.lesson.Main</mainClass>
-                            <arguments>
-                                <argument>arg0</argument>
-                                <argument>arg1</argument>
-                            </arguments>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-         </plugins>
-    </build>-->
 
 </project>
