@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        //DZ1();
+
+    }
+
+    private static void DZ1() {
         System.out.println("Hello friends!");                                                   //Задача 3/
         Scanner in = new Scanner(System.in);
         System.out.println("Введите 2 числа в диапозоне [-64;64]: ");
